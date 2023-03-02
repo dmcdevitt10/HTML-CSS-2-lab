@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(233, 230, 230);
+}
+
+.square {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 15px;
+    top: 15px;
+    background-color: rgb(68, 122, 239);
+}
+
+.paragraph {
+    height: 225px;
+    width: 100%;
+}
+
+p {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+.bar {
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+
+.blue {
+    background-color: rgb(68, 122, 239);
+}
+
+.aqua {
+    background-color: rgb(120, 222, 210);
+}
+
+.green {
+    background-color: rgb(170, 212, 150);
+}
+
+.yellow {
+    background-color: rgb(221, 221, 96);
+}
+
+button {
+    position: fixed;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 13px;
+    bottom: 13px;
+    
+    
+
+}
+
+.question {
+    color: white;
+}
